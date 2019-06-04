@@ -1,0 +1,26 @@
+#denalipic {
+    width:20%;
+    margin-left:40%;
+    clear:none;
+    position:absolute;
+    height:200px;
+}
+
+h1 {
+    width:100%;
+    text-align:center;
+    color:White;
+}
+
+body {
+    background-color:Blue;
+}
+
+div{
+        border:2.5px dotted yellow;
+}
+
+p {
+    color:White;
+    font-size:20px;
+}

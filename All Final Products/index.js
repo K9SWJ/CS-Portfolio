@@ -1,0 +1,45 @@
+var text="<br> <span class='parafont'> I made 4 different pages before this page. In each of these webpages I learned how to do something different whether it be adding color, making tables, or just learning how to create a webpage. Each website helped me accomplsih something for the next website to make it better or more aesthetically pleasing. <br> <span class=\"width\"><a id='onclicklink' onClick=\"windowOpen('https://preview.c9users.io/k9swj/csportfolio/int1-checkpoints/favthings.html');\" style=\"display:block; color:blue;\"> My Favorite Things. <br> <a id='onclicklink' onClick=\"windowOpen('https://preview.c9users.io/k9swj/csportfolio/int1-checkpoints/week.html?_c9_id=livepreview9&_c9_host=https://ide.c9.io');\" style=\"display:block; color:blue;\"> My Week. <br> <a id='onclicklink' onClick=\"windowOpen('https://preview.c9users.io/k9swj/csportfolio/int1-checkpoints/colorfulworld.html?_c9_id=livepreview7&_c9_host=https://ide.c9.io');\" style=\"display:block; color:blue;\"> Colorful World. <br> <a id='onclicklink' onClick=\"windowOpen('https://preview.c9users.io/k9swj/csportfolio/Art-HowTo.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io');\" style=\"display:block; color:blue;\"> How To Generative Art Page </a></span></span>"; 
+var ree = false;
+function displayPages() {
+    if (ree === false) {
+        var pages = document.getElementById("Pages");
+        pages.innerHTML = text;
+        ree = true;
+    }
+    else {
+        var pages = document.getElementById("Pages");
+        pages.innerHTML = "";
+        ree = false;
+    }
+}
+function windowOpen(url) {
+    window.open(url);
+}
+var text2="<span class='parafont'> I come from a very European family. I mostly connect with my Swedish and German ethnicity but I am also Polish, Irish, Scottish and Czech I have even gone as far to learn to talk in Swedish. During the 2018 World Cup in Russia me and my brother had a bet between Sweden and Germany. During one of the group stage matches Sweden and Germany went up against each other. We both talked back and forth in the different languages talking about who would win (though he had to google words). I am the only one in the family that fluently speaks a second language plus I am trying to learn Spanish to be trilingual. <br> <img src='https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg' height='120'><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAAB+CAMAAACJW9TbAAAAElBMVEUAAAD/zgDdAADvAADYAAD/4ADMPp7AAAAAf0lEQVR4nO3PCRHAQAwAofTzb7k2bjPggBkAAAAAAAAAADjAs8/c+zg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1rDy9+8y3z1z7ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NfzXW22gUeWztgAAAABJRU5ErkJggg==' height='120'><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANIAAACDCAMAAADPlbUiAAAADFBMVEX////cFDzup67aACP8CdZBAAAAcElEQVR4nO3PMRHAMAwAMTfhz7kUsr5PYqAZAAAAAAAAAAAAAAAAAF6ddeauM986SgVKBUoFSgVKBUoFSgVKBUoFSgVKBUoFSgVKBUoFSgVKBUoFSgVKBUoFSgVKBUoFSgVKBUoFSgVKBUoFSgULSz/gWDib6qMEXgAAAABJRU5ErkJggg==' height='120'><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAABkCAMAAAC8R1L8AAAAY1BMVEX////XFBoRRX7UAAAAP3vdERIAOnluiKqQKkhHapbl6vArVok/PW7IGCNsNFuzHzGrIjcvQHR3MFRSOWaWKES9HCxiNmCCLk/W3udTc5ubrMSInbixvtDEAABjKlZ8krGeJ0FFsv2GAAACGklEQVRogc3ZCXKCQBCFYWgJwUhM0Oz7/U+ZIRNLBYFZenl9gq/+emNKU1zfFJBXbT6sCRePqIZMRg5GgMmov/oVLtmfi/BWRv+HluzgogprZXSEVUjJ6OSQktHZ1WuUZOcul+zNWuSPhgfyMEcuqmqEZGOXk61frFkXXQgP86ILYGUTLvOVTbn6ZJYrm3bZJptx9R//ZslmXYYf//Muu5UtuaxWtugyWlmAy2RlIS6LZGEut7J3SJd6smCX+16imSzc5ZJt9JLFuNzD/IZ0Ka4s0uUepk6yWJfWyuJdOg8zwaWSLMnVr0z4e0maq/8lTzZZqkv6L2ayy62sEkyW4XLN5FaW5RJ8mHkuuf9K5LqkfmLPdgl9luW7+pXxJ+NwSayMx8W/MiYXezI2F319rviOzdX9XJWMx+V6umVlMbmYY3G5tsyxeFz8sVhcArEYXN29hCrbJRMr2yUUK9O1K8VYGS6pZWW6xJaV5eruRFWpLsllpbtkl5Xs2orHSnG10stKc8kvK8WlsawE126lxYpxKS0r1qW1rDiXaqxw17NqrFBXq/YMo1zqsYJc+0d9VYDLItayS/sZBroaI9W8y2ZZi67GZlkLLstYM67GEjXpam1jTbnsnuGcay/7jTXVZb0sf0NXixCrHLkeMFQDF8Sy/J26MJblr0CMVR5dHcyy/BWIscqDCyxW6V3c/3PiuAJuWf4KxFjufgE8I0BY4n1u5gAAAABJRU5ErkJggg==' height='120'><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAABLCAMAAABKveUfAAAAUVBMVEX///8AcznnYwDh4eEAbSuesabZva7mXQDwnnSEsZcAbS3pWQCsvrTTrp3oXAAAZhrrTwDxm27oUwDj3dnT19XAzMXcx7zZuajN0c+2w7ze19MKY1JCAAAAgElEQVRoge3a6xHBQABG0Q3ZRYLEc9F/oWr4xoxf51ZwCrjlVdPe27R2SvuUuoxZy6GkXa7nrLWXOg5ZU+7a7zZZc+Pi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi+tX1l391zlp7uR/THvHv+2xh/fYFPOFHebfRwQQAAAAASUVORK5CYII=' height='120'> <img src = 'data:image/png;base64,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' height='120'</span>"; 
+var ree = false;
+function displayBackground() {
+    if (ree === false) {
+        var background = document.getElementById("Background");
+        background.innerHTML = text2;
+        ree = true;
+    }
+    else {
+        var background = document.getElementById("Background");
+        background.innerHTML = "";
+        ree = false;
+    }
+}
+var text3="<li><span class='parafont'> I have broken bones. I broke my left clavicle and both my wrists while playing soccer. </li> <li>I have played soccer since I was 5.</li> <li>I have been playing drums since 2016 (I started in 7th grade)</li><li>I started playing competitive soccer in 2017</li> <li>I started learning Swedish in 2017</li><img src='Collar bone.jpg'> </span>";
+var ree = false;
+function displayFacts() {
+    if (ree === false) {
+        var facts = document.getElementById("Facts");
+        facts.innerHTML = text3;
+        ree = true;
+    }
+    else {
+        var facts = document.getElementById("Facts");
+        facts.innerHTML = "";
+        ree = false;
+    }
+}

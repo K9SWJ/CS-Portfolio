@@ -1,0 +1,27 @@
+#main-title{
+    color:blue;
+    width:100%;
+    text-align:center;
+}
+button{
+    color:yellow;
+    background-color:black;
+    width:100%;
+    text-align:center;
+}
+body{
+    background-color:grey;
+}
+h2{
+    color:red;
+    width:100%;
+    text-align:center;
+}
+p{
+    font-family:sans-serif;
+    font-size:14px;
+}
+h3{
+    width:100%;
+    text-align:center;
+}
